@@ -26,9 +26,6 @@ Dataset ini memili jumlah data sebanyak 119,390  dan 32 fitur.Berikut contoh beb
 | stays_in_weekend_nights          | Jumlah malam akhir pekan yang dipesan                                       |
 | stays_in_week_nights             | Jumlah malam minggu yang dipesan                                            |
 | adults                           | Jumlah tamu dewasa                                                           |
-| children                         | Jumlah tamu anak-anak                                                       |
-| babies                           | Jumlah tamu bayi                                                            |
-| meal                             | Jenis makanan yang dipesan                                                  |
 | country                          | Negara asal tamu                                                            |
 | market_segment                   | Segmen pasar pemesanan                                                      |
 | distribution_channel             | Saluran distribusi pemesanan                                                |
@@ -76,9 +73,8 @@ python -m streamlit run uap.py
 ------------------------------------------
 ## Deskripsi Model
 #### Model yang Digunakan
-Random Forest: Algoritma pembelajaran ensemble berbasis pohon keputusan (Decision Tree) yang bekerja dengan cara membangun beberapa pohon keputusan selama pelatihan dan menggabungkan hasilnya untuk menghasilkan prediksi akhir.
-XGBoost: Algoritma boosting berbasis pohon keputusan yang dioptimalkan untuk kecepatan dan performa. XGBoost adalah salah satu algoritma favorit dalam kompetisi data science karena kemampuannya untuk memberikan hasil yang sangat baik.
-Feedforward Neural Network (FNN): Tipe sederhana dari jaringan saraf tiruan (Artificial Neural Network). Informasi dalam FNN mengalir maju dari input ke output melalui lapisan tersembunyi tanpa adanya umpan balik (feedback).
+- Random Forest: Algoritma pembelajaran ensemble berbasis pohon keputusan (Decision Tree) yang bekerja dengan cara membangun beberapa pohon keputusan selama pelatihan dan menggabungkan hasilnya untuk menghasilkan prediksi akhir.
+- Feedforward Neural Network (FNN): Tipe sederhana dari jaringan saraf tiruan (Artificial Neural Network). Informasi dalam FNN mengalir maju dari input ke output melalui lapisan tersembunyi tanpa adanya umpan balik (feedback).
 
 ---------------------------
 ## Hasil dan Analisi
