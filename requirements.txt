@@ -1,0 +1,13 @@
+gdown
+joblib
+xgboost
+matplotlib
+numpy
+pandas
+plotly
+seaborn
+shap
+streamlit
+tensorflow
+tensorflow_intel
+wordcloud
